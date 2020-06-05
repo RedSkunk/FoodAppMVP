@@ -1,0 +1,18 @@
+ [
+  {
+  "categoryName":"Brunch",
+  "categoryImageUrl":"Brunch"
+  },{
+  "categoryName":"Fusion",
+  "categoryImageUrl":"Fusion"
+  },{
+  "categoryName":"Bar and Grill",
+  "categoryImageUrl":"Bar and Grill"
+  },{
+  "categoryName":"Burger",
+  "categoryImageUrl":"Burger"
+  },{
+  "categoryName":"Mexican",
+  "categoryImageUrl":"Mexican"
+  }
+]

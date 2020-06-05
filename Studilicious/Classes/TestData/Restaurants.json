@@ -1,0 +1,55 @@
+[
+ {
+ "restaurantName":"Aprilé Bambina Cucina",
+ "cuisineType":
+ [
+  {"type":"Italian"}
+  ],
+ "bannerImageUrl":"Aprilé Bambina Cucina",
+ "logoImageUrl":"Aprilé Bambina Cucina Logo",
+ "distanceAway":500,
+ "isOpen":false
+ },{
+ "restaurantName":"Barrio Coreano",
+ "cuisineType":
+ [
+  {"type":"Mexican"},
+  {"type":"Korean"},
+  {"type":"Fusion"}
+  ],
+ "bannerImageUrl":"Barrio Coreano",
+ "logoImageUrl":"Barrio Coreano Logo",
+ "distanceAway":3000,
+ "isOpen":true
+ },{
+ "restaurantName":"Great Burger Kitchen",
+ "cuisineType":
+ [
+  {"type":"Burger"}
+  ],
+ "bannerImageUrl":"Great Burger Kitchen",
+ "logoImageUrl":"Great Burger Kitchen Logo",
+ "distanceAway":2740,
+ "isOpen":true
+ },{
+ "restaurantName":"Hank's",
+ "cuisineType":
+ [
+  {"type":"Comfort Food"}
+  ],
+ "bannerImageUrl":"Hank's",
+ "logoImageUrl":"Hank's Logo",
+ "distanceAway":4300,
+ "isOpen":true
+ },{
+ "restaurantName":"The Ice House Winery",
+ "cuisineType":
+ [
+  {"type":"Winery"}
+  ],
+ "bannerImageUrl":"Ice House Winery",
+ "logoImageUrl":"Ice House Winery Logo",
+ "distanceAway":12300,
+ "isOpen":false
+ }
+ ]

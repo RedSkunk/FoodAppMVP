@@ -1,0 +1,1031 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E1140DB1D601CBE00976391 /* FoodCategories.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E1140DA1D601CBE00976391 /* FoodCategories.json */; };
+		9E1140DE1D601DAA00976391 /* TestDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1140DD1D601DAA00976391 /* TestDataManager.m */; };
+		9E1140E21D601E5C00976391 /* STLServerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1140E11D601E5C00976391 /* STLServerUtil.m */; };
+		9E1140E61D60307400976391 /* RestaurantsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1140E51D60307400976391 /* RestaurantsViewController.m */; };
+		9E1140EA1D60362900976391 /* RestaurantsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1140E81D60362900976391 /* RestaurantsCell.m */; };
+		9E1140EB1D60362900976391 /* RestaurantsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E1140E91D60362900976391 /* RestaurantsCell.xib */; };
+		9E1140EE1D60423100976391 /* StoryboardList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1140ED1D60423100976391 /* StoryboardList.m */; };
+		9E1140F11D60425800976391 /* GlobalConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1140F01D60425800976391 /* GlobalConstants.m */; };
+		9E71929B1D5FBDD200E30C55 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E71929A1D5FBDD200E30C55 /* HomePageViewController.m */; };
+		9E71929F1D5FFCE400E30C55 /* FoodCategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E71929E1D5FFCE400E30C55 /* FoodCategoriesViewController.m */; };
+		9E7192A31D5FFD0000E30C55 /* FoodCategoriesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7192A11D5FFD0000E30C55 /* FoodCategoriesCell.m */; };
+		9E7192A41D5FFD0000E30C55 /* FoodCategoriesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E7192A21D5FFD0000E30C55 /* FoodCategoriesCell.xib */; };
+		9E7192A71D601C0200E30C55 /* FoodCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7192A61D601C0200E30C55 /* FoodCategory.m */; };
+		9EF09E7A1D621620006443A6 /* RestaurantMenuDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF09E791D621620006443A6 /* RestaurantMenuDetailViewController.m */; };
+		9EF09E811D621668006443A6 /* RestaurantMenuItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF09E7F1D621668006443A6 /* RestaurantMenuItemCell.m */; };
+		9EF09E821D621668006443A6 /* RestaurantMenuItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EF09E801D621668006443A6 /* RestaurantMenuItemCell.xib */; };
+		9EF09E861D621F16006443A6 /* RestaurantMenuItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF09E851D621F16006443A6 /* RestaurantMenuItemViewController.m */; };
+		9EF09E8A1D621F5B006443A6 /* RestaurantMenuItemInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF09E881D621F5B006443A6 /* RestaurantMenuItemInfoCell.m */; };
+		9EF09E8B1D621F5B006443A6 /* RestaurantMenuItemInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EF09E891D621F5B006443A6 /* RestaurantMenuItemInfoCell.xib */; };
+		9EF09E8F1D6220BD006443A6 /* RestaurantMenuItemOptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF09E8D1D6220BD006443A6 /* RestaurantMenuItemOptionCell.m */; };
+		9EF09E901D6220BD006443A6 /* RestaurantMenuItemOptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EF09E8E1D6220BD006443A6 /* RestaurantMenuItemOptionCell.xib */; };
+		9EF09E941D62253C006443A6 /* RestaurantMenuItemSectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF09E921D62253C006443A6 /* RestaurantMenuItemSectionCell.m */; };
+		9EF09E951D62253C006443A6 /* RestaurantMenuItemSectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EF09E931D62253C006443A6 /* RestaurantMenuItemSectionCell.xib */; };
+		9EF0BDDA1D578E9E0028B750 /* UIColor+fromHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF0BDD91D578E9E0028B750 /* UIColor+fromHex.m */; };
+		9EF0BDEF1D5795850028B750 /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF0BDEA1D5795850028B750 /* LeftMenuViewController.m */; };
+		9EF0BDF01D5795850028B750 /* RootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF0BDEC1D5795850028B750 /* RootNavigationController.m */; };
+		9EF0BDF11D5795850028B750 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF0BDEE1D5795850028B750 /* RootViewController.m */; };
+		9EF0BDF51D5797A20028B750 /* MenuOptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF0BDF31D5797A20028B750 /* MenuOptionCell.m */; };
+		9EF0BDF61D5797A20028B750 /* MenuOptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EF0BDF41D5797A20028B750 /* MenuOptionCell.xib */; };
+		9EF0BDFA1D57A09E0028B750 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF0BDF91D57A09E0028B750 /* HomeViewController.m */; };
+		9EF0BE021D57A15E0028B750 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF0BDFD1D57A15E0028B750 /* GradientView.m */; };
+		9EF0BE031D57A15E0028B750 /* PushNoAnimationSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF0BDFF1D57A15E0028B750 /* PushNoAnimationSegue.m */; };
+		9EF0BE041D57A15E0028B750 /* UILabelKerning.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF0BE011D57A15E0028B750 /* UILabelKerning.m */; };
+		9EF1C8D41D60DE9700E01776 /* Restaurants.json in Resources */ = {isa = PBXBuildFile; fileRef = 9EF1C8D31D60DE9700E01776 /* Restaurants.json */; };
+		9EF1C9071D60E24800E01776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EF1C9061D60E24800E01776 /* Assets.xcassets */; };
+		9EF1C90A1D60E5FD00E01776 /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF1C9091D60E5FD00E01776 /* Restaurant.m */; };
+		9EF1C90D1D60E79300E01776 /* CuisineType.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF1C90C1D60E79300E01776 /* CuisineType.m */; };
+		9EF1C9111D61100400E01776 /* UIImageViewAligned.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF1C9101D61100400E01776 /* UIImageViewAligned.m */; };
+		9EF1C9151D61427300E01776 /* RestaurantDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF1C9141D61427300E01776 /* RestaurantDetailViewController.m */; };
+		9EF1C9191D6164DF00E01776 /* RestaurantDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF1C9171D6164DF00E01776 /* RestaurantDetailCell.m */; };
+		9EF1C91A1D6164DF00E01776 /* RestaurantDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EF1C9181D6164DF00E01776 /* RestaurantDetailCell.xib */; };
+		9EF1C91E1D6166BC00E01776 /* RestaurantMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF1C91C1D6166BC00E01776 /* RestaurantMenuCell.m */; };
+		9EF1C91F1D6166BC00E01776 /* RestaurantMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EF1C91D1D6166BC00E01776 /* RestaurantMenuCell.xib */; };
+		9EF1C9231D61770B00E01776 /* RestaurantContactCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF1C9211D61770B00E01776 /* RestaurantContactCell.m */; };
+		9EF1C9241D61770B00E01776 /* RestaurantContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EF1C9221D61770B00E01776 /* RestaurantContactCell.xib */; };
+		9EF1C9271D61876E00E01776 /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF1C9261D61876E00E01776 /* TestTableViewController.m */; };
+		9EF1C92B1D6187AA00E01776 /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF1C9291D6187AA00E01776 /* TestTableViewCell.m */; };
+		9EF1C92C1D6187AA00E01776 /* TestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EF1C92A1D6187AA00E01776 /* TestTableViewCell.xib */; };
+		9EFBD0951D57039100B2269A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EFBD0941D57039100B2269A /* main.m */; };
+		9EFBD0981D57039100B2269A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EFBD0971D57039100B2269A /* AppDelegate.m */; };
+		9EFBD09E1D57039100B2269A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EFBD09C1D57039100B2269A /* Main.storyboard */; };
+		9EFBD0A31D57039100B2269A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EFBD0A11D57039100B2269A /* LaunchScreen.storyboard */; };
+		9EFBD0AE1D57039200B2269A /* StudiliciousTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EFBD0AD1D57039200B2269A /* StudiliciousTests.m */; };
+		9EFBD0B91D57039200B2269A /* StudiliciousUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EFBD0B81D57039200B2269A /* StudiliciousUITests.m */; };
+		9EFBD0D01D570E1000B2269A /* CALayer+UIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EFBD0CD1D570E1000B2269A /* CALayer+UIColor.m */; };
+		9EFBD0D11D570E1000B2269A /* NSDate+FormatTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EFBD0CF1D570E1000B2269A /* NSDate+FormatTools.m */; };
+		9EFBD0D81D5711DC00B2269A /* LoginSignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EFBD0D71D5711DC00B2269A /* LoginSignupViewController.m */; };
+		BD1BBB8E0D647CBF5C5FD2E0 /* libPods-Studilicious.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA90145798D1C4831AF9F4C /* libPods-Studilicious.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9EFBD0AA1D57039200B2269A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EFBD0881D57039100B2269A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EFBD08F1D57039100B2269A;
+			remoteInfo = Studilicious;
+		};
+		9EFBD0B51D57039200B2269A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EFBD0881D57039100B2269A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EFBD08F1D57039100B2269A;
+			remoteInfo = Studilicious;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6CF07AC72BF9A5F1FE47AC6F /* Pods-Studilicious.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Studilicious.release.xcconfig"; path = "Pods/Target Support Files/Pods-Studilicious/Pods-Studilicious.release.xcconfig"; sourceTree = "<group>"; };
+		8E29401F485FC18B36289FF3 /* Pods-Studilicious.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Studilicious.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Studilicious/Pods-Studilicious.debug.xcconfig"; sourceTree = "<group>"; };
+		9E1140DA1D601CBE00976391 /* FoodCategories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FoodCategories.json; sourceTree = "<group>"; };
+		9E1140DC1D601DAA00976391 /* TestDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestDataManager.h; sourceTree = "<group>"; };
+		9E1140DD1D601DAA00976391 /* TestDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestDataManager.m; sourceTree = "<group>"; };
+		9E1140E01D601E5C00976391 /* STLServerUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLServerUtil.h; sourceTree = "<group>"; };
+		9E1140E11D601E5C00976391 /* STLServerUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLServerUtil.m; sourceTree = "<group>"; };
+		9E1140E41D60307400976391 /* RestaurantsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantsViewController.h; sourceTree = "<group>"; };
+		9E1140E51D60307400976391 /* RestaurantsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantsViewController.m; sourceTree = "<group>"; };
+		9E1140E71D60362900976391 /* RestaurantsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantsCell.h; sourceTree = "<group>"; };
+		9E1140E81D60362900976391 /* RestaurantsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantsCell.m; sourceTree = "<group>"; };
+		9E1140E91D60362900976391 /* RestaurantsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RestaurantsCell.xib; sourceTree = "<group>"; };
+		9E1140EC1D60423100976391 /* StoryboardList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryboardList.h; sourceTree = "<group>"; };
+		9E1140ED1D60423100976391 /* StoryboardList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryboardList.m; sourceTree = "<group>"; };
+		9E1140EF1D60425800976391 /* GlobalConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalConstants.h; sourceTree = "<group>"; };
+		9E1140F01D60425800976391 /* GlobalConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalConstants.m; sourceTree = "<group>"; };
+		9E7192991D5FBDD200E30C55 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		9E71929A1D5FBDD200E30C55 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		9E71929D1D5FFCE400E30C55 /* FoodCategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodCategoriesViewController.h; sourceTree = "<group>"; };
+		9E71929E1D5FFCE400E30C55 /* FoodCategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodCategoriesViewController.m; sourceTree = "<group>"; };
+		9E7192A01D5FFD0000E30C55 /* FoodCategoriesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodCategoriesCell.h; sourceTree = "<group>"; };
+		9E7192A11D5FFD0000E30C55 /* FoodCategoriesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodCategoriesCell.m; sourceTree = "<group>"; };
+		9E7192A21D5FFD0000E30C55 /* FoodCategoriesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodCategoriesCell.xib; sourceTree = "<group>"; };
+		9E7192A51D601C0200E30C55 /* FoodCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodCategory.h; sourceTree = "<group>"; };
+		9E7192A61D601C0200E30C55 /* FoodCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodCategory.m; sourceTree = "<group>"; };
+		9EF09E781D621620006443A6 /* RestaurantMenuDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantMenuDetailViewController.h; sourceTree = "<group>"; };
+		9EF09E791D621620006443A6 /* RestaurantMenuDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantMenuDetailViewController.m; sourceTree = "<group>"; };
+		9EF09E7E1D621668006443A6 /* RestaurantMenuItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantMenuItemCell.h; sourceTree = "<group>"; };
+		9EF09E7F1D621668006443A6 /* RestaurantMenuItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantMenuItemCell.m; sourceTree = "<group>"; };
+		9EF09E801D621668006443A6 /* RestaurantMenuItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RestaurantMenuItemCell.xib; sourceTree = "<group>"; };
+		9EF09E841D621F16006443A6 /* RestaurantMenuItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantMenuItemViewController.h; sourceTree = "<group>"; };
+		9EF09E851D621F16006443A6 /* RestaurantMenuItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantMenuItemViewController.m; sourceTree = "<group>"; };
+		9EF09E871D621F5B006443A6 /* RestaurantMenuItemInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantMenuItemInfoCell.h; sourceTree = "<group>"; };
+		9EF09E881D621F5B006443A6 /* RestaurantMenuItemInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantMenuItemInfoCell.m; sourceTree = "<group>"; };
+		9EF09E891D621F5B006443A6 /* RestaurantMenuItemInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RestaurantMenuItemInfoCell.xib; sourceTree = "<group>"; };
+		9EF09E8C1D6220BD006443A6 /* RestaurantMenuItemOptionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantMenuItemOptionCell.h; sourceTree = "<group>"; };
+		9EF09E8D1D6220BD006443A6 /* RestaurantMenuItemOptionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantMenuItemOptionCell.m; sourceTree = "<group>"; };
+		9EF09E8E1D6220BD006443A6 /* RestaurantMenuItemOptionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RestaurantMenuItemOptionCell.xib; sourceTree = "<group>"; };
+		9EF09E911D62253C006443A6 /* RestaurantMenuItemSectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantMenuItemSectionCell.h; sourceTree = "<group>"; };
+		9EF09E921D62253C006443A6 /* RestaurantMenuItemSectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantMenuItemSectionCell.m; sourceTree = "<group>"; };
+		9EF09E931D62253C006443A6 /* RestaurantMenuItemSectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RestaurantMenuItemSectionCell.xib; sourceTree = "<group>"; };
+		9EF0BDD81D578E9E0028B750 /* UIColor+fromHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+fromHex.h"; sourceTree = "<group>"; };
+		9EF0BDD91D578E9E0028B750 /* UIColor+fromHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+fromHex.m"; sourceTree = "<group>"; };
+		9EF0BDE91D5795850028B750 /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuViewController.h; sourceTree = "<group>"; };
+		9EF0BDEA1D5795850028B750 /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewController.m; sourceTree = "<group>"; };
+		9EF0BDEB1D5795850028B750 /* RootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNavigationController.h; sourceTree = "<group>"; };
+		9EF0BDEC1D5795850028B750 /* RootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNavigationController.m; sourceTree = "<group>"; };
+		9EF0BDED1D5795850028B750 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		9EF0BDEE1D5795850028B750 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		9EF0BDF21D5797A20028B750 /* MenuOptionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuOptionCell.h; sourceTree = "<group>"; };
+		9EF0BDF31D5797A20028B750 /* MenuOptionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuOptionCell.m; sourceTree = "<group>"; };
+		9EF0BDF41D5797A20028B750 /* MenuOptionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuOptionCell.xib; sourceTree = "<group>"; };
+		9EF0BDF81D57A09E0028B750 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		9EF0BDF91D57A09E0028B750 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		9EF0BDFC1D57A15E0028B750 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
+		9EF0BDFD1D57A15E0028B750 /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
+		9EF0BDFE1D57A15E0028B750 /* PushNoAnimationSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushNoAnimationSegue.h; sourceTree = "<group>"; };
+		9EF0BDFF1D57A15E0028B750 /* PushNoAnimationSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushNoAnimationSegue.m; sourceTree = "<group>"; };
+		9EF0BE001D57A15E0028B750 /* UILabelKerning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILabelKerning.h; sourceTree = "<group>"; };
+		9EF0BE011D57A15E0028B750 /* UILabelKerning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILabelKerning.m; sourceTree = "<group>"; };
+		9EF1C8D31D60DE9700E01776 /* Restaurants.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Restaurants.json; sourceTree = "<group>"; };
+		9EF1C9061D60E24800E01776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EF1C9081D60E5FD00E01776 /* Restaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Restaurant.h; sourceTree = "<group>"; };
+		9EF1C9091D60E5FD00E01776 /* Restaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Restaurant.m; sourceTree = "<group>"; };
+		9EF1C90B1D60E79300E01776 /* CuisineType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CuisineType.h; sourceTree = "<group>"; };
+		9EF1C90C1D60E79300E01776 /* CuisineType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CuisineType.m; sourceTree = "<group>"; };
+		9EF1C90F1D61100400E01776 /* UIImageViewAligned.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageViewAligned.h; sourceTree = "<group>"; };
+		9EF1C9101D61100400E01776 /* UIImageViewAligned.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageViewAligned.m; sourceTree = "<group>"; };
+		9EF1C9131D61427300E01776 /* RestaurantDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantDetailViewController.h; sourceTree = "<group>"; };
+		9EF1C9141D61427300E01776 /* RestaurantDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantDetailViewController.m; sourceTree = "<group>"; };
+		9EF1C9161D6164DF00E01776 /* RestaurantDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantDetailCell.h; sourceTree = "<group>"; };
+		9EF1C9171D6164DF00E01776 /* RestaurantDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantDetailCell.m; sourceTree = "<group>"; };
+		9EF1C9181D6164DF00E01776 /* RestaurantDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RestaurantDetailCell.xib; sourceTree = "<group>"; };
+		9EF1C91B1D6166BC00E01776 /* RestaurantMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantMenuCell.h; sourceTree = "<group>"; };
+		9EF1C91C1D6166BC00E01776 /* RestaurantMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantMenuCell.m; sourceTree = "<group>"; };
+		9EF1C91D1D6166BC00E01776 /* RestaurantMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RestaurantMenuCell.xib; sourceTree = "<group>"; };
+		9EF1C9201D61770B00E01776 /* RestaurantContactCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantContactCell.h; sourceTree = "<group>"; };
+		9EF1C9211D61770B00E01776 /* RestaurantContactCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantContactCell.m; sourceTree = "<group>"; };
+		9EF1C9221D61770B00E01776 /* RestaurantContactCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RestaurantContactCell.xib; sourceTree = "<group>"; };
+		9EF1C9251D61876E00E01776 /* TestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
+		9EF1C9261D61876E00E01776 /* TestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
+		9EF1C9281D6187AA00E01776 /* TestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
+		9EF1C9291D6187AA00E01776 /* TestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
+		9EF1C92A1D6187AA00E01776 /* TestTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestTableViewCell.xib; sourceTree = "<group>"; };
+		9EFBD0901D57039100B2269A /* Studilicious.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Studilicious.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EFBD0941D57039100B2269A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9EFBD0961D57039100B2269A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9EFBD0971D57039100B2269A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9EFBD09D1D57039100B2269A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9EFBD0A21D57039100B2269A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9EFBD0A41D57039100B2269A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EFBD0A91D57039200B2269A /* StudiliciousTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudiliciousTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EFBD0AD1D57039200B2269A /* StudiliciousTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudiliciousTests.m; sourceTree = "<group>"; };
+		9EFBD0AF1D57039200B2269A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EFBD0B41D57039200B2269A /* StudiliciousUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudiliciousUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EFBD0B81D57039200B2269A /* StudiliciousUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudiliciousUITests.m; sourceTree = "<group>"; };
+		9EFBD0BA1D57039200B2269A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EFBD0CC1D570E1000B2269A /* CALayer+UIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+UIColor.h"; sourceTree = "<group>"; };
+		9EFBD0CD1D570E1000B2269A /* CALayer+UIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+UIColor.m"; sourceTree = "<group>"; };
+		9EFBD0CE1D570E1000B2269A /* NSDate+FormatTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+FormatTools.h"; sourceTree = "<group>"; };
+		9EFBD0CF1D570E1000B2269A /* NSDate+FormatTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+FormatTools.m"; sourceTree = "<group>"; };
+		9EFBD0D61D5711DC00B2269A /* LoginSignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginSignupViewController.h; sourceTree = "<group>"; };
+		9EFBD0D71D5711DC00B2269A /* LoginSignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginSignupViewController.m; sourceTree = "<group>"; };
+		BBA90145798D1C4831AF9F4C /* libPods-Studilicious.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Studilicious.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EFBD08D1D57039100B2269A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1BBB8E0D647CBF5C5FD2E0 /* libPods-Studilicious.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EFBD0A61D57039200B2269A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EFBD0B11D57039200B2269A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B7521EEC6476487D7BAC802 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E29401F485FC18B36289FF3 /* Pods-Studilicious.debug.xcconfig */,
+				6CF07AC72BF9A5F1FE47AC6F /* Pods-Studilicious.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9E1140D91D601CBE00976391 /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+				9E1140DC1D601DAA00976391 /* TestDataManager.h */,
+				9E1140DD1D601DAA00976391 /* TestDataManager.m */,
+				9E1140DA1D601CBE00976391 /* FoodCategories.json */,
+				9EF1C8D31D60DE9700E01776 /* Restaurants.json */,
+			);
+			name = TestData;
+			path = Studilicious/Classes/TestData;
+			sourceTree = SOURCE_ROOT;
+		};
+		9E1140DF1D601E5C00976391 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				9E1140E01D601E5C00976391 /* STLServerUtil.h */,
+				9E1140E11D601E5C00976391 /* STLServerUtil.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		9E1140E31D60306400976391 /* RestaurantsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9E1140E41D60307400976391 /* RestaurantsViewController.h */,
+				9E1140E51D60307400976391 /* RestaurantsViewController.m */,
+				9E1140E71D60362900976391 /* RestaurantsCell.h */,
+				9E1140E81D60362900976391 /* RestaurantsCell.m */,
+				9E1140E91D60362900976391 /* RestaurantsCell.xib */,
+			);
+			path = RestaurantsViewController;
+			sourceTree = "<group>";
+		};
+		9E71929C1D5FF71900E30C55 /* FoodCategoriesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9E71929D1D5FFCE400E30C55 /* FoodCategoriesViewController.h */,
+				9E71929E1D5FFCE400E30C55 /* FoodCategoriesViewController.m */,
+				9E7192A01D5FFD0000E30C55 /* FoodCategoriesCell.h */,
+				9E7192A11D5FFD0000E30C55 /* FoodCategoriesCell.m */,
+				9E7192A21D5FFD0000E30C55 /* FoodCategoriesCell.xib */,
+			);
+			path = FoodCategoriesViewController;
+			sourceTree = "<group>";
+		};
+		9EF09E771D621573006443A6 /* RestaurantMenuDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9EF09E781D621620006443A6 /* RestaurantMenuDetailViewController.h */,
+				9EF09E791D621620006443A6 /* RestaurantMenuDetailViewController.m */,
+				9EF09E7E1D621668006443A6 /* RestaurantMenuItemCell.h */,
+				9EF09E7F1D621668006443A6 /* RestaurantMenuItemCell.m */,
+				9EF09E801D621668006443A6 /* RestaurantMenuItemCell.xib */,
+			);
+			path = RestaurantMenuDetailViewController;
+			sourceTree = "<group>";
+		};
+		9EF09E831D621F01006443A6 /* RestaurantMenuItemViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9EF09E841D621F16006443A6 /* RestaurantMenuItemViewController.h */,
+				9EF09E851D621F16006443A6 /* RestaurantMenuItemViewController.m */,
+				9EF09E871D621F5B006443A6 /* RestaurantMenuItemInfoCell.h */,
+				9EF09E881D621F5B006443A6 /* RestaurantMenuItemInfoCell.m */,
+				9EF09E891D621F5B006443A6 /* RestaurantMenuItemInfoCell.xib */,
+				9EF09E8C1D6220BD006443A6 /* RestaurantMenuItemOptionCell.h */,
+				9EF09E8D1D6220BD006443A6 /* RestaurantMenuItemOptionCell.m */,
+				9EF09E8E1D6220BD006443A6 /* RestaurantMenuItemOptionCell.xib */,
+				9EF09E911D62253C006443A6 /* RestaurantMenuItemSectionCell.h */,
+				9EF09E921D62253C006443A6 /* RestaurantMenuItemSectionCell.m */,
+				9EF09E931D62253C006443A6 /* RestaurantMenuItemSectionCell.xib */,
+			);
+			path = RestaurantMenuItemViewController;
+			sourceTree = "<group>";
+		};
+		9EF0BDE81D5795850028B750 /* NavigationMenu */ = {
+			isa = PBXGroup;
+			children = (
+				9EF0BDE91D5795850028B750 /* LeftMenuViewController.h */,
+				9EF0BDEA1D5795850028B750 /* LeftMenuViewController.m */,
+				9EF0BDEB1D5795850028B750 /* RootNavigationController.h */,
+				9EF0BDEC1D5795850028B750 /* RootNavigationController.m */,
+				9EF0BDED1D5795850028B750 /* RootViewController.h */,
+				9EF0BDEE1D5795850028B750 /* RootViewController.m */,
+				9EF0BDF21D5797A20028B750 /* MenuOptionCell.h */,
+				9EF0BDF31D5797A20028B750 /* MenuOptionCell.m */,
+				9EF0BDF41D5797A20028B750 /* MenuOptionCell.xib */,
+			);
+			path = NavigationMenu;
+			sourceTree = "<group>";
+		};
+		9EF0BDF71D57A0970028B750 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9EF0BDF81D57A09E0028B750 /* HomeViewController.h */,
+				9EF0BDF91D57A09E0028B750 /* HomeViewController.m */,
+				9E7192991D5FBDD200E30C55 /* HomePageViewController.h */,
+				9E71929A1D5FBDD200E30C55 /* HomePageViewController.m */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		9EF0BDFB1D57A15E0028B750 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9EF0BDFC1D57A15E0028B750 /* GradientView.h */,
+				9EF0BDFD1D57A15E0028B750 /* GradientView.m */,
+				9EF0BDFE1D57A15E0028B750 /* PushNoAnimationSegue.h */,
+				9EF0BDFF1D57A15E0028B750 /* PushNoAnimationSegue.m */,
+				9E1140EC1D60423100976391 /* StoryboardList.h */,
+				9E1140ED1D60423100976391 /* StoryboardList.m */,
+				9EF0BE001D57A15E0028B750 /* UILabelKerning.h */,
+				9EF0BE011D57A15E0028B750 /* UILabelKerning.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9EF1C90E1D61100400E01776 /* UIImageViewAligned */ = {
+			isa = PBXGroup;
+			children = (
+				9EF1C90F1D61100400E01776 /* UIImageViewAligned.h */,
+				9EF1C9101D61100400E01776 /* UIImageViewAligned.m */,
+			);
+			path = UIImageViewAligned;
+			sourceTree = "<group>";
+		};
+		9EF1C9121D61426000E01776 /* RestaurantDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9EF1C9131D61427300E01776 /* RestaurantDetailViewController.h */,
+				9EF1C9141D61427300E01776 /* RestaurantDetailViewController.m */,
+				9EF1C9161D6164DF00E01776 /* RestaurantDetailCell.h */,
+				9EF1C9171D6164DF00E01776 /* RestaurantDetailCell.m */,
+				9EF1C9181D6164DF00E01776 /* RestaurantDetailCell.xib */,
+				9EF1C91B1D6166BC00E01776 /* RestaurantMenuCell.h */,
+				9EF1C91C1D6166BC00E01776 /* RestaurantMenuCell.m */,
+				9EF1C91D1D6166BC00E01776 /* RestaurantMenuCell.xib */,
+				9EF1C9201D61770B00E01776 /* RestaurantContactCell.h */,
+				9EF1C9211D61770B00E01776 /* RestaurantContactCell.m */,
+				9EF1C9221D61770B00E01776 /* RestaurantContactCell.xib */,
+			);
+			path = RestaurantDetailViewController;
+			sourceTree = "<group>";
+		};
+		9EFBD0871D57039100B2269A = {
+			isa = PBXGroup;
+			children = (
+				9EFBD0921D57039100B2269A /* Studilicious */,
+				9EFBD0AC1D57039200B2269A /* StudiliciousTests */,
+				9EFBD0B71D57039200B2269A /* StudiliciousUITests */,
+				9EFBD0911D57039100B2269A /* Products */,
+				6B7521EEC6476487D7BAC802 /* Pods */,
+				C61A9702154A36C354464898 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9EFBD0911D57039100B2269A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EFBD0901D57039100B2269A /* Studilicious.app */,
+				9EFBD0A91D57039200B2269A /* StudiliciousTests.xctest */,
+				9EFBD0B41D57039200B2269A /* StudiliciousUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EFBD0921D57039100B2269A /* Studilicious */ = {
+			isa = PBXGroup;
+			children = (
+				9EFBD0C61D570DD600B2269A /* Classes */,
+				9EF1C9061D60E24800E01776 /* Assets.xcassets */,
+				9EFBD0961D57039100B2269A /* AppDelegate.h */,
+				9EFBD0971D57039100B2269A /* AppDelegate.m */,
+				9E1140EF1D60425800976391 /* GlobalConstants.h */,
+				9E1140F01D60425800976391 /* GlobalConstants.m */,
+				9EFBD09C1D57039100B2269A /* Main.storyboard */,
+				9EFBD0A11D57039100B2269A /* LaunchScreen.storyboard */,
+				9EFBD0A41D57039100B2269A /* Info.plist */,
+				9EFBD0931D57039100B2269A /* Supporting Files */,
+			);
+			path = Studilicious;
+			sourceTree = "<group>";
+		};
+		9EFBD0931D57039100B2269A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EFBD0941D57039100B2269A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9EFBD0AC1D57039200B2269A /* StudiliciousTests */ = {
+			isa = PBXGroup;
+			children = (
+				9EFBD0AD1D57039200B2269A /* StudiliciousTests.m */,
+				9EFBD0AF1D57039200B2269A /* Info.plist */,
+			);
+			path = StudiliciousTests;
+			sourceTree = "<group>";
+		};
+		9EFBD0B71D57039200B2269A /* StudiliciousUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9EFBD0B81D57039200B2269A /* StudiliciousUITests.m */,
+				9EFBD0BA1D57039200B2269A /* Info.plist */,
+			);
+			path = StudiliciousUITests;
+			sourceTree = "<group>";
+		};
+		9EFBD0C61D570DD600B2269A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9E1140D91D601CBE00976391 /* TestData */,
+				9EFBD0C71D570DD600B2269A /* Components */,
+				9EFBD0C81D570DD600B2269A /* Librarys */,
+				9EFBD0C91D570DD600B2269A /* Models */,
+				9EFBD0CA1D570DD600B2269A /* Support */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9EFBD0C71D570DD600B2269A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9EF09E831D621F01006443A6 /* RestaurantMenuItemViewController */,
+				9EF09E771D621573006443A6 /* RestaurantMenuDetailViewController */,
+				9EF1C9121D61426000E01776 /* RestaurantDetailViewController */,
+				9E1140E31D60306400976391 /* RestaurantsViewController */,
+				9E71929C1D5FF71900E30C55 /* FoodCategoriesViewController */,
+				9EF0BDF71D57A0970028B750 /* HomeViewController */,
+				9EF0BDE81D5795850028B750 /* NavigationMenu */,
+				9EFBD0D51D5711DC00B2269A /* LoginSingupViewController */,
+				9EF1C9251D61876E00E01776 /* TestTableViewController.h */,
+				9EF1C9261D61876E00E01776 /* TestTableViewController.m */,
+				9EF1C9281D6187AA00E01776 /* TestTableViewCell.h */,
+				9EF1C9291D6187AA00E01776 /* TestTableViewCell.m */,
+				9EF1C92A1D6187AA00E01776 /* TestTableViewCell.xib */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9EFBD0C81D570DD600B2269A /* Librarys */ = {
+			isa = PBXGroup;
+			children = (
+				9EF1C90E1D61100400E01776 /* UIImageViewAligned */,
+			);
+			path = Librarys;
+			sourceTree = "<group>";
+		};
+		9EFBD0C91D570DD600B2269A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9E7192A51D601C0200E30C55 /* FoodCategory.h */,
+				9E7192A61D601C0200E30C55 /* FoodCategory.m */,
+				9EF1C90B1D60E79300E01776 /* CuisineType.h */,
+				9EF1C90C1D60E79300E01776 /* CuisineType.m */,
+				9EF1C9081D60E5FD00E01776 /* Restaurant.h */,
+				9EF1C9091D60E5FD00E01776 /* Restaurant.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9EFBD0CA1D570DD600B2269A /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				9E1140DF1D601E5C00976391 /* Service */,
+				9EF0BDFB1D57A15E0028B750 /* View */,
+				9EFBD0CB1D570E1000B2269A /* Extension */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		9EFBD0CB1D570E1000B2269A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9EFBD0CC1D570E1000B2269A /* CALayer+UIColor.h */,
+				9EFBD0CD1D570E1000B2269A /* CALayer+UIColor.m */,
+				9EFBD0CE1D570E1000B2269A /* NSDate+FormatTools.h */,
+				9EFBD0CF1D570E1000B2269A /* NSDate+FormatTools.m */,
+				9EF0BDD81D578E9E0028B750 /* UIColor+fromHex.h */,
+				9EF0BDD91D578E9E0028B750 /* UIColor+fromHex.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9EFBD0D51D5711DC00B2269A /* LoginSingupViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9EFBD0D61D5711DC00B2269A /* LoginSignupViewController.h */,
+				9EFBD0D71D5711DC00B2269A /* LoginSignupViewController.m */,
+			);
+			path = LoginSingupViewController;
+			sourceTree = "<group>";
+		};
+		C61A9702154A36C354464898 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBA90145798D1C4831AF9F4C /* libPods-Studilicious.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EFBD08F1D57039100B2269A /* Studilicious */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EFBD0BD1D57039200B2269A /* Build configuration list for PBXNativeTarget "Studilicious" */;
+			buildPhases = (
+				37D45B0303E2B3DBBD0377B9 /* [CP] Check Pods Manifest.lock */,
+				9EFBD08C1D57039100B2269A /* Sources */,
+				9EFBD08D1D57039100B2269A /* Frameworks */,
+				9EFBD08E1D57039100B2269A /* Resources */,
+				7BF54C72D37CD2DEF440B7E7 /* [CP] Embed Pods Frameworks */,
+				251038CBD6FD64510D467BB7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Studilicious;
+			productName = Studilicious;
+			productReference = 9EFBD0901D57039100B2269A /* Studilicious.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9EFBD0A81D57039200B2269A /* StudiliciousTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EFBD0C01D57039200B2269A /* Build configuration list for PBXNativeTarget "StudiliciousTests" */;
+			buildPhases = (
+				9EFBD0A51D57039200B2269A /* Sources */,
+				9EFBD0A61D57039200B2269A /* Frameworks */,
+				9EFBD0A71D57039200B2269A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EFBD0AB1D57039200B2269A /* PBXTargetDependency */,
+			);
+			name = StudiliciousTests;
+			productName = StudiliciousTests;
+			productReference = 9EFBD0A91D57039200B2269A /* StudiliciousTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9EFBD0B31D57039200B2269A /* StudiliciousUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EFBD0C31D57039200B2269A /* Build configuration list for PBXNativeTarget "StudiliciousUITests" */;
+			buildPhases = (
+				9EFBD0B01D57039200B2269A /* Sources */,
+				9EFBD0B11D57039200B2269A /* Frameworks */,
+				9EFBD0B21D57039200B2269A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EFBD0B61D57039200B2269A /* PBXTargetDependency */,
+			);
+			name = StudiliciousUITests;
+			productName = StudiliciousUITests;
+			productReference = 9EFBD0B41D57039200B2269A /* StudiliciousUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EFBD0881D57039100B2269A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jeffrey So";
+				TargetAttributes = {
+					9EFBD08F1D57039100B2269A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = H95RG3ZZKH;
+					};
+					9EFBD0A81D57039200B2269A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = H95RG3ZZKH;
+						TestTargetID = 9EFBD08F1D57039100B2269A;
+					};
+					9EFBD0B31D57039200B2269A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = H95RG3ZZKH;
+						TestTargetID = 9EFBD08F1D57039100B2269A;
+					};
+				};
+			};
+			buildConfigurationList = 9EFBD08B1D57039100B2269A /* Build configuration list for PBXProject "Studilicious" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9EFBD0871D57039100B2269A;
+			productRefGroup = 9EFBD0911D57039100B2269A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EFBD08F1D57039100B2269A /* Studilicious */,
+				9EFBD0A81D57039200B2269A /* StudiliciousTests */,
+				9EFBD0B31D57039200B2269A /* StudiliciousUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EFBD08E1D57039100B2269A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EFBD0A31D57039100B2269A /* LaunchScreen.storyboard in Resources */,
+				9EF1C91F1D6166BC00E01776 /* RestaurantMenuCell.xib in Resources */,
+				9E1140DB1D601CBE00976391 /* FoodCategories.json in Resources */,
+				9EF1C91A1D6164DF00E01776 /* RestaurantDetailCell.xib in Resources */,
+				9EF09E8B1D621F5B006443A6 /* RestaurantMenuItemInfoCell.xib in Resources */,
+				9EF09E821D621668006443A6 /* RestaurantMenuItemCell.xib in Resources */,
+				9E1140EB1D60362900976391 /* RestaurantsCell.xib in Resources */,
+				9EF1C9241D61770B00E01776 /* RestaurantContactCell.xib in Resources */,
+				9EF0BDF61D5797A20028B750 /* MenuOptionCell.xib in Resources */,
+				9EF1C8D41D60DE9700E01776 /* Restaurants.json in Resources */,
+				9EF09E901D6220BD006443A6 /* RestaurantMenuItemOptionCell.xib in Resources */,
+				9E7192A41D5FFD0000E30C55 /* FoodCategoriesCell.xib in Resources */,
+				9EF09E951D62253C006443A6 /* RestaurantMenuItemSectionCell.xib in Resources */,
+				9EF1C92C1D6187AA00E01776 /* TestTableViewCell.xib in Resources */,
+				9EF1C9071D60E24800E01776 /* Assets.xcassets in Resources */,
+				9EFBD09E1D57039100B2269A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EFBD0A71D57039200B2269A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EFBD0B21D57039200B2269A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		251038CBD6FD64510D467BB7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Studilicious/Pods-Studilicious-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37D45B0303E2B3DBBD0377B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7BF54C72D37CD2DEF440B7E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Studilicious/Pods-Studilicious-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EFBD08C1D57039100B2269A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E1140DE1D601DAA00976391 /* TestDataManager.m in Sources */,
+				9EF09E861D621F16006443A6 /* RestaurantMenuItemViewController.m in Sources */,
+				9EFBD0D81D5711DC00B2269A /* LoginSignupViewController.m in Sources */,
+				9EF1C90D1D60E79300E01776 /* CuisineType.m in Sources */,
+				9E7192A71D601C0200E30C55 /* FoodCategory.m in Sources */,
+				9EF1C90A1D60E5FD00E01776 /* Restaurant.m in Sources */,
+				9EF09E811D621668006443A6 /* RestaurantMenuItemCell.m in Sources */,
+				9EF09E8A1D621F5B006443A6 /* RestaurantMenuItemInfoCell.m in Sources */,
+				9EFBD0981D57039100B2269A /* AppDelegate.m in Sources */,
+				9EFBD0951D57039100B2269A /* main.m in Sources */,
+				9EF0BE041D57A15E0028B750 /* UILabelKerning.m in Sources */,
+				9E1140EA1D60362900976391 /* RestaurantsCell.m in Sources */,
+				9EF0BDF51D5797A20028B750 /* MenuOptionCell.m in Sources */,
+				9EFBD0D01D570E1000B2269A /* CALayer+UIColor.m in Sources */,
+				9E71929F1D5FFCE400E30C55 /* FoodCategoriesViewController.m in Sources */,
+				9EF1C9151D61427300E01776 /* RestaurantDetailViewController.m in Sources */,
+				9E1140F11D60425800976391 /* GlobalConstants.m in Sources */,
+				9E1140EE1D60423100976391 /* StoryboardList.m in Sources */,
+				9EF09E7A1D621620006443A6 /* RestaurantMenuDetailViewController.m in Sources */,
+				9E1140E61D60307400976391 /* RestaurantsViewController.m in Sources */,
+				9EF1C92B1D6187AA00E01776 /* TestTableViewCell.m in Sources */,
+				9E1140E21D601E5C00976391 /* STLServerUtil.m in Sources */,
+				9EF1C9111D61100400E01776 /* UIImageViewAligned.m in Sources */,
+				9EF0BE031D57A15E0028B750 /* PushNoAnimationSegue.m in Sources */,
+				9EF1C9231D61770B00E01776 /* RestaurantContactCell.m in Sources */,
+				9E7192A31D5FFD0000E30C55 /* FoodCategoriesCell.m in Sources */,
+				9EF0BDEF1D5795850028B750 /* LeftMenuViewController.m in Sources */,
+				9E71929B1D5FBDD200E30C55 /* HomePageViewController.m in Sources */,
+				9EF1C9191D6164DF00E01776 /* RestaurantDetailCell.m in Sources */,
+				9EF0BDFA1D57A09E0028B750 /* HomeViewController.m in Sources */,
+				9EF0BDF11D5795850028B750 /* RootViewController.m in Sources */,
+				9EF0BDF01D5795850028B750 /* RootNavigationController.m in Sources */,
+				9EF1C9271D61876E00E01776 /* TestTableViewController.m in Sources */,
+				9EFBD0D11D570E1000B2269A /* NSDate+FormatTools.m in Sources */,
+				9EF09E941D62253C006443A6 /* RestaurantMenuItemSectionCell.m in Sources */,
+				9EF0BE021D57A15E0028B750 /* GradientView.m in Sources */,
+				9EF0BDDA1D578E9E0028B750 /* UIColor+fromHex.m in Sources */,
+				9EF1C91E1D6166BC00E01776 /* RestaurantMenuCell.m in Sources */,
+				9EF09E8F1D6220BD006443A6 /* RestaurantMenuItemOptionCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EFBD0A51D57039200B2269A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EFBD0AE1D57039200B2269A /* StudiliciousTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EFBD0B01D57039200B2269A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EFBD0B91D57039200B2269A /* StudiliciousUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9EFBD0AB1D57039200B2269A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EFBD08F1D57039100B2269A /* Studilicious */;
+			targetProxy = 9EFBD0AA1D57039200B2269A /* PBXContainerItemProxy */;
+		};
+		9EFBD0B61D57039200B2269A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EFBD08F1D57039100B2269A /* Studilicious */;
+			targetProxy = 9EFBD0B51D57039200B2269A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9EFBD09C1D57039100B2269A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EFBD09D1D57039100B2269A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9EFBD0A11D57039100B2269A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EFBD0A21D57039100B2269A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9EFBD0BB1D57039200B2269A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9EFBD0BC1D57039200B2269A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EFBD0BE1D57039200B2269A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E29401F485FC18B36289FF3 /* Pods-Studilicious.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = H95RG3ZZKH;
+				INFOPLIST_FILE = Studilicious/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jeff.Studilicious;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		9EFBD0BF1D57039200B2269A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CF07AC72BF9A5F1FE47AC6F /* Pods-Studilicious.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = H95RG3ZZKH;
+				INFOPLIST_FILE = Studilicious/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jeff.Studilicious;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		9EFBD0C11D57039200B2269A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H95RG3ZZKH;
+				INFOPLIST_FILE = StudiliciousTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jeff.StudiliciousTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Studilicious.app/Studilicious";
+			};
+			name = Debug;
+		};
+		9EFBD0C21D57039200B2269A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H95RG3ZZKH;
+				INFOPLIST_FILE = StudiliciousTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jeff.StudiliciousTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Studilicious.app/Studilicious";
+			};
+			name = Release;
+		};
+		9EFBD0C41D57039200B2269A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = H95RG3ZZKH;
+				INFOPLIST_FILE = StudiliciousUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jeff.StudiliciousUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Studilicious;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9EFBD0C51D57039200B2269A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = H95RG3ZZKH;
+				INFOPLIST_FILE = StudiliciousUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jeff.StudiliciousUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Studilicious;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EFBD08B1D57039100B2269A /* Build configuration list for PBXProject "Studilicious" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EFBD0BB1D57039200B2269A /* Debug */,
+				9EFBD0BC1D57039200B2269A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EFBD0BD1D57039200B2269A /* Build configuration list for PBXNativeTarget "Studilicious" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EFBD0BE1D57039200B2269A /* Debug */,
+				9EFBD0BF1D57039200B2269A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EFBD0C01D57039200B2269A /* Build configuration list for PBXNativeTarget "StudiliciousTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EFBD0C11D57039200B2269A /* Debug */,
+				9EFBD0C21D57039200B2269A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EFBD0C31D57039200B2269A /* Build configuration list for PBXNativeTarget "StudiliciousUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EFBD0C41D57039200B2269A /* Debug */,
+				9EFBD0C51D57039200B2269A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EFBD0881D57039100B2269A /* Project object */;
+}
